@@ -33,7 +33,7 @@ function Expenses(props) {
     ));
   }
 
-  if (filteredExpenses.length > 0) {
+  if (filteredExpenses.length > 1) {
     expensesContent = filteredExpenses.map((expense) => (
       <ExpenseItem
         key={expense.id}
